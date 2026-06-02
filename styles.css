@@ -81,9 +81,10 @@ h2 { margin-bottom: 20px; font-size: clamp(36px, 4vw, 55px); line-height: 1.08; 
 .social-links svg { width: 18px; fill: var(--accent); }
 
 .research-interests { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--line); }
-.research-interests .section-kicker { margin-bottom: 12px; }
+.research-interests .section-kicker { margin-bottom: 5px; }
+.interest-intro { margin-bottom: 12px; color: var(--ink-soft); font-size: 14px; }
 .interest-list { display: flex; flex-wrap: wrap; gap: 8px; }
-.interest-list span { padding: 6px 10px; color: var(--accent); background: var(--accent-pale); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+.interest-list span { flex: 1 1 auto; padding: 6px 10px; color: var(--accent); background: var(--accent-pale); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .05em; text-align: center; text-transform: uppercase; }
 
 .hero-education { padding: 26px 28px 18px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 .hero-education h2 { margin-bottom: 24px; font-size: 32px; }
