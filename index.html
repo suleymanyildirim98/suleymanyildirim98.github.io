@@ -76,52 +76,21 @@
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Abstract visualization connecting computer vision, neural networks, and autonomous systems" role="img">
-          <div class="visual-label">RESEARCH / ENGINEERING</div>
-          <svg viewBox="0 0 600 540" aria-hidden="true">
-            <defs>
-              <linearGradient id="panel-gradient" x1="0" y1="0" x2="1" y2="1">
-                <stop stop-color="#eefaff"/>
-                <stop offset="1" stop-color="#d9f2f7"/>
-              </linearGradient>
-              <linearGradient id="line-gradient" x1="0" y1="0" x2="1" y2="0">
-                <stop stop-color="#35b4c4" stop-opacity=".22"/>
-                <stop offset=".5" stop-color="#168da5" stop-opacity=".85"/>
-                <stop offset="1" stop-color="#11667e" stop-opacity=".22"/>
-              </linearGradient>
-            </defs>
-            <rect x="35" y="35" width="530" height="470" rx="30" fill="url(#panel-gradient)"/>
-            <g class="grid-lines" stroke="#168da5" stroke-opacity=".12">
-              <path d="M35 125h530M35 215h530M35 305h530M35 395h530"/>
-              <path d="M140 35v470M245 35v470M350 35v470M455 35v470"/>
-            </g>
-            <g class="network-lines" fill="none" stroke="url(#line-gradient)" stroke-width="2">
-              <path d="M122 180 232 125l112 65 120-61"/>
-              <path d="M122 180 235 275l109-85 120 76"/>
-              <path d="M122 352 235 275l118 92 111-101"/>
-              <path d="M232 125 235 275l118 92"/>
-            </g>
-            <g class="nodes">
-              <circle cx="122" cy="180" r="16"/>
-              <circle cx="122" cy="352" r="12"/>
-              <circle cx="232" cy="125" r="11"/>
-              <circle cx="235" cy="275" r="19"/>
-              <circle cx="344" cy="190" r="14"/>
-              <circle cx="353" cy="367" r="10"/>
-              <circle cx="464" cy="129" r="13"/>
-              <circle cx="464" cy="266" r="17"/>
-            </g>
-            <g class="scan" fill="none" stroke="#0f738a">
-              <path d="M207 247h22v-22M263 247h-22v-22M207 303h22v22M263 303h-22v22"/>
-            </g>
-            <g class="drone" transform="translate(412 320)" fill="none" stroke="#0b3d55" stroke-linecap="round" stroke-width="3">
-              <path d="m0 23 27 12 27-12M27 35v31M15 66h24M4 15l23 20 23-20"/>
-              <circle cx="0" cy="12" r="12"/><circle cx="54" cy="12" r="12"/>
-            </g>
-            <text x="76" y="459">VISION</text>
-            <text x="264" y="459">LEARNING</text>
-            <text x="430" y="459">FLIGHT</text>
-          </svg>
+        <div class="hero-education">
+          <p class="section-kicker">Education</p>
+          <h2>Academic background</h2>
+          <article class="education-card">
+            <span>2022 — 2025</span>
+            <h3>MSc, Computer Sciences and Engineering</h3>
+            <p>Koç University</p>
+            <small>KUIS AI Fellow</small>
+          </article>
+          <article class="education-card">
+            <span>2017 — 2022</span>
+            <h3>BSc, Electrical and Electronics Engineering</h3>
+            <p>İstanbul Medipol University</p>
+            <small>Full scholarship · High honor · 3rd in faculty · GPA 3.81 / 4.00</small>
+          </article>
         </div>
       </div>
     </section>
@@ -173,7 +142,7 @@
         <div class="section-heading">
           <p class="section-kicker">Experience</p>
           <h2>Professional experience</h2>
-          <p>Research and engineering work across autonomous flight, telecommunications, and computer vision.</p>
+          <p>Research and engineering work across generative AI, image processing, robotics, and time series forecasting.</p>
         </div>
         <div class="timeline">
           <article class="timeline-item">
@@ -236,7 +205,10 @@
             <div><span class="publication-type">Journal Article</span><span class="publication-year">2023</span></div>
             <h3><a href="https://doi.org/10.1016/j.cviu.2023.103718" target="_blank" rel="noopener noreferrer">Deep Learning-Based Blind Image Super-Resolution with Iterative Kernel Reconstruction and Noise Estimation <span>↗</span></a></h3>
             <p>S. Yildirim, H. F. Ates, B. K. Gunturk</p>
-            <span class="publication-status">Computer Vision and Image Understanding</span>
+            <div class="publication-links">
+              <span class="publication-status">Computer Vision and Image Understanding</span>
+              <a class="publication-code" href="https://github.com/hfates/IKR-Net" target="_blank" rel="noopener noreferrer" aria-label="View code repository for the CVIU paper">Code <span>↗</span></a>
+            </div>
           </article>
           <article class="publication-card">
             <div><span class="publication-type">Conference Paper</span><span class="publication-year">2022</span></div>
@@ -249,27 +221,6 @@
             <h3><a href="https://arxiv.org/abs/2210.07282" target="_blank" rel="noopener noreferrer">Harfang3D Dog-Fight Sandbox: A Reinforcement Learning Research Platform for Customized Control Tasks of Fighter Aircraft <span>↗</span></a></h3>
             <p>M. Özbek, S. Yildirim, M. Aksoy, E. Kernin, E. Koyuncu</p>
             <span class="publication-status">arXiv preprint</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section background" id="background">
-      <div class="container background-grid">
-        <div>
-          <p class="section-kicker">Education</p>
-          <h2>Education</h2>
-          <article class="education-card">
-            <span>2022 — 2025</span>
-            <h3>MSc, Computer Sciences and Engineering</h3>
-            <p>Koç University</p>
-            <small>KUIS AI Fellow</small>
-          </article>
-          <article class="education-card">
-            <span>2017 — 2022</span>
-            <h3>BSc, Electrical and Electronics Engineering</h3>
-            <p>İstanbul Medipol University</p>
-            <small>Full scholarship · High honor · 3rd in faculty · GPA 3.81 / 4.00</small>
           </article>
         </div>
       </div>
