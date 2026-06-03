@@ -80,11 +80,12 @@ h2 { margin-bottom: 20px; font-size: clamp(36px, 4vw, 55px); line-height: 1.08; 
 .social-links a:hover { border-color: var(--accent-bright); background: var(--accent-pale); transform: translateY(-2px); }
 .social-links svg { width: 18px; fill: var(--accent); }
 
-.research-interests { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--line); }
+.research-interests { margin-top: 34px; padding: 24px 28px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 12px 28px rgba(10,61,77,.05); }
 .research-interests .section-kicker { margin-bottom: 5px; }
 .interest-intro { margin-bottom: 12px; color: var(--ink-soft); font-size: 14px; }
-.interest-list { display: flex; flex-wrap: wrap; gap: 8px; }
-.interest-list span { flex: 1 1 auto; padding: 6px 10px; color: var(--accent); background: var(--accent-pale); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .05em; text-align: center; text-transform: uppercase; }
+.interest-list { display: grid; width: 100%; gap: 8px; }
+.interest-row { display: flex; width: 100%; gap: 8px; }
+.interest-row span { display: flex; flex: 1 1 auto; align-items: center; justify-content: center; padding: 6px 10px; color: var(--accent); background: var(--accent-pale); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .05em; text-align: center; text-transform: uppercase; white-space: nowrap; }
 
 .hero-education { padding: 26px 28px 18px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 .hero-education h2 { margin-bottom: 24px; font-size: 32px; }
@@ -156,6 +157,8 @@ footer { color: #b6d1d6; background: var(--ink); }
   h1 { font-size: clamp(44px, 14vw, 62px); }
   .hero-intro { font-size: 16px; }
   .hero-education { padding: 22px 20px 12px; }
+  .interest-row { display: grid; grid-template-columns: 1fr; }
+  .interest-row span { white-space: normal; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; padding-left: 25px; }
   .timeline-location { float: none; }
   .publication-heading { display: block; }
